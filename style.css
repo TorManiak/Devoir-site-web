@@ -1,0 +1,22 @@
+body {
+	background-image: url("images/Morshu-shop.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #211018;
+}
+h1,h2 {
+	border: 10px groove #d8b993;
+	border-radius: 15px;
+	border-color: #d8b993;
+	padding: 5px;
+	text-align: center;
+	background-color : #edcba1;
+}
+#Morshu-gif {
+	width: 70%;
+	height: 70%;
+}
+p {
+	text-align: center;
+}
