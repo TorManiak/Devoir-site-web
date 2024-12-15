@@ -4,5 +4,37 @@
 <meta charset="UTF-8">
 <title> Morshu's Shop - Votre commande</title>
 <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<img src="images/zelda-cdi-salesman.gif"> <h2>CHOISISSEZ CE QUE VOUS VOULEZ! CE QUE VOUS VOULEZ, J'AI!</h2>
+<div class="dialogue">	
+    <p><img src="images/zelda-cdi-salesman.gif" alt="gif Morshu" id="Morshu-gif-2">
+    	<h2>VOTRE COMMANDE EST PRÊTE À ÊTRE LIVRÉE! REMPLISSEZ CES CHAMPS AVEC VOS INFORMATIONS POUR PAYER, QUE JE PUISSE VOUS TROUVER ET VOUS <s>VOLER</s> LIVRER VOS BIENS!</h2>
+
+</div>
+<form method="post" action="form_fin.html">
+<fieldset>
+	<legend> Informations <s>de la victime</s> du client</legend> 
+	<label for="Nom">Nom :</label>
+	<input id="Nom" type="text" required>
+	
+	<label for="mail">Mail :</label>
+    <input id="mail" type="email" required>
+	
+	<label for="Adresse">Adresse :</label>
+	<input id="Adresse" type="text">
+	
+	<label for="speedeliver">Livraison rapide :</label>
+	<input id="speedeliver" type="checkbox">
+	
+	<label for="accord-EULA">En cliquant ceci, vous acceptez le contrat d'échange de vos biens : </label>
+	<input id="accord-EULA" type="radio" required>
+
+	<label for="recu">Reçu en physique aussi?</label>
+	<input id="recu" type="radio">
+	
+	<button type="submit">Envoyer</button>
+	</fieldset>
+</form>	
+</body>
+</html>

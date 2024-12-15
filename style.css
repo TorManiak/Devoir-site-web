@@ -4,6 +4,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: #211018;
+	font-family: "Trebuchet MS";
 }
 h1,h2 {
 	border: 10px groove #d8b993;
@@ -13,6 +14,13 @@ h1,h2 {
 	text-align: center;
 	background-color : #edcba1;
 }
+h3 {
+	border: 10px groove white;
+	border-radius: 5px;
+	border-color: #f2edd5;
+	background-color: #d7dbc5;
+	text-align: center;
+}
 #Morshu-gif {
 	width: 70%;
 	height: 70%;
@@ -20,3 +28,31 @@ h1,h2 {
 p {
 	text-align: center;
 }
+.dialogue {
+	display: flex;
+  align-items: center;
+}
+
+#Morshu-gif-2 {
+	margin-right:20px;
+}
+#textbox {
+	max-width: 600px;
+}
+
+form {
+	border: 10px groove white;
+	border-radius: 5px;
+	border-color: #f2edd5;
+	background-color: #d7dbc5;
+}
+
+fieldset {
+	border: 10px groove white;
+	border-radius: 5px;
+	border-color: #f2edd5;
+	background-color: #d7dbc5;
+}
+
+
+
